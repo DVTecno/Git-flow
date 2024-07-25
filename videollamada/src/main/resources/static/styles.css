@@ -1,0 +1,93 @@
+/* Estilos Generales */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Título de la Sala */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #495057;
+}
+
+/* Configuración de la Sala */
+#roomConfig {
+    padding: 20px 0;
+}
+
+.input-group-lg>.form-control, .input-group-lg>.input-group-append>.btn {
+    border-radius: 0.5rem;
+}
+
+/* Estilos de los Videos */
+#remoteVideoContainer {
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+#remoteVideo, #localVideo {
+    border-radius: 35px;
+    object-fit: cover;
+}
+
+#localVideo {
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: 5px solid #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Botones de Control */
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.enabled-style {
+    background-color: #28a745;
+}
+
+.enabled-style:hover {
+    background-color: #218838;
+}
+
+.disabled-style {
+    background-color: #dc3545;
+}
+
+.disabled-style:hover {
+    background-color: #c82333;
+}
+
+/* Ajustes Responsivos */
+@media (max-width: 768px) {
+    #remoteVideoContainer {
+        width: 90%;
+        height: 50vh;
+    }
+
+    #localVideo {
+        width: 150px;
+        height: 100px;
+    }
+}
+
