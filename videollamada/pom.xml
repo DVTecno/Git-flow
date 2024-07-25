@@ -11,7 +11,7 @@
 	<groupId>com.videollamda</groupId>
 	<artifactId>videollamada</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Video Laamada</name>
+	<name>Video Llamada</name>
 	<description>API de Video Llamada</description>
 	<url/>
 	<licenses>
