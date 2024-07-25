@@ -10,6 +10,7 @@ public class WebConfiguration implements WebMvcConfigurer {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
+        //Set the default page to index.html
         registry.addViewController("/").setViewName("forward:/index.html");
     }
 
